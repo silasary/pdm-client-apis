@@ -26,3 +26,10 @@ jobs:
       name: Generate with Swagger
       with:
         args: generate -i https://pennydreadfulmagic.com/api/swagger.json -l csharp # --config config.json
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        # Artifact name
+        name: ${{ matrix.configuration }}
+        # Directory containing files to upload
+        path: ./
