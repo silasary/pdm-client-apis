@@ -1,7 +1,0 @@
-{
-  "packageName": "PennyDreadfulMagic.Decksite",
-  "packageVersion": "1.0.0",
-  "targetFramework": "v5.0",
-  "netCoreProjectFile": true,
-  "packageGuid": "{C4E1D8D7-9155-4A1C-81B2-2C6E85BB2551}"
-}

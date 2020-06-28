@@ -20,10 +20,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - uses: bjerkio/swagger-codegen-action@master
-      name: Generate with Swagger
-      with:
-        args: generate -i https://pennydreadfulmagic.com/api/swagger.json -l csharp --config config.json
+    - run: npm install -g autorest
+    - run: autorest
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2.8.0
       with:
