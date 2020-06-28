@@ -33,12 +33,12 @@
       "$id": "7",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "8",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -69,12 +69,12 @@
       "$id": "13",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "14",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     }
    ],
@@ -133,12 +133,12 @@
       "$id": "21",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "22",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -169,12 +169,12 @@
       "$id": "27",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "28",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -206,12 +206,12 @@
       "$type": "PrimaryType",
       "format": "date-time",
       "knownPrimaryType": "dateTime",
+      "deprecated": false,
       "name": {
        "$id": "34",
        "fixed": false,
        "raw": "DateTime"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -243,12 +243,12 @@
       "$type": "PrimaryType",
       "format": "date-time",
       "knownPrimaryType": "dateTime",
+      "deprecated": false,
       "name": {
        "$id": "40",
        "fixed": false,
        "raw": "DateTime"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -279,12 +279,12 @@
       "$id": "45",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "46",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -315,12 +315,12 @@
       "$id": "51",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "52",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -351,12 +351,12 @@
       "$id": "57",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "58",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -387,12 +387,12 @@
       "$id": "63",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "64",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -423,12 +423,12 @@
       "$id": "69",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "70",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -459,12 +459,12 @@
       "$id": "75",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "76",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -495,12 +495,12 @@
       "$id": "81",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "82",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -531,12 +531,12 @@
       "$id": "87",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "88",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -567,12 +567,12 @@
       "$id": "93",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "94",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -603,12 +603,12 @@
       "$id": "99",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "100",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -639,12 +639,12 @@
       "$id": "105",
       "$type": "PrimaryType",
       "knownPrimaryType": "boolean",
+      "deprecated": false,
       "name": {
        "$id": "106",
        "fixed": false,
        "raw": "Boolean"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -678,18 +678,18 @@
        "$id": "112",
        "$type": "PrimaryType",
        "knownPrimaryType": "string",
+       "deprecated": false,
        "name": {
         "$id": "113",
         "fixed": false,
         "raw": "String"
-       },
-       "deprecated": false
+       }
       },
+      "deprecated": false,
       "name": {
        "$id": "114",
        "fixed": false
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -720,12 +720,12 @@
       "$id": "119",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "120",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -756,12 +756,12 @@
       "$id": "125",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "126",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -794,11 +794,11 @@
       "elementType": {
        "$ref": "2"
       },
+      "deprecated": false,
       "name": {
        "$id": "132",
        "fixed": false
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -831,11 +831,11 @@
       "elementType": {
        "$ref": "2"
       },
+      "deprecated": false,
       "name": {
        "$id": "138",
        "fixed": false
-      },
-      "deprecated": false
+      }
      }
     }
    ],
@@ -894,12 +894,12 @@
       "$id": "145",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "146",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -930,12 +930,12 @@
       "$id": "151",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "152",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -967,12 +967,12 @@
       "$type": "PrimaryType",
       "format": "date-time",
       "knownPrimaryType": "dateTime",
+      "deprecated": false,
       "name": {
        "$id": "158",
        "fixed": false,
        "raw": "DateTime"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1004,12 +1004,12 @@
       "$type": "PrimaryType",
       "format": "date-time",
       "knownPrimaryType": "dateTime",
+      "deprecated": false,
       "name": {
        "$id": "164",
        "fixed": false,
        "raw": "DateTime"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1040,12 +1040,12 @@
       "$id": "169",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "170",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1076,12 +1076,12 @@
       "$id": "175",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "176",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1112,12 +1112,12 @@
       "$id": "181",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "182",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1148,12 +1148,12 @@
       "$id": "187",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "188",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1184,12 +1184,12 @@
       "$id": "193",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "194",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1220,12 +1220,12 @@
       "$id": "199",
       "$type": "PrimaryType",
       "knownPrimaryType": "string",
+      "deprecated": false,
       "name": {
        "$id": "200",
        "fixed": false,
        "raw": "String"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1256,12 +1256,12 @@
       "$id": "205",
       "$type": "PrimaryType",
       "knownPrimaryType": "int",
+      "deprecated": false,
       "name": {
        "$id": "206",
        "fixed": false,
        "raw": "Int"
-      },
-      "deprecated": false
+      }
      }
     },
     {
@@ -1294,11 +1294,11 @@
       "elementType": {
        "$ref": "16"
       },
+      "deprecated": false,
       "name": {
        "$id": "212",
        "fixed": false
-      },
-      "deprecated": false
+      }
      }
     }
    ],
@@ -1375,12 +1375,12 @@
     "$id": "218",
     "$type": "PrimaryType",
     "knownPrimaryType": "int",
+    "deprecated": false,
     "name": {
      "$id": "219",
      "fixed": false,
      "raw": "Int"
-    },
-    "deprecated": false
+    }
    }
   },
   {
@@ -1428,12 +1428,12 @@
     "$type": "PrimaryType",
     "format": "mask",
     "knownPrimaryType": "string",
+    "deprecated": false,
     "name": {
      "$id": "225",
      "fixed": false,
      "raw": "String"
-    },
-    "deprecated": false
+    }
    }
   },
   {
@@ -1481,12 +1481,12 @@
     "$type": "PrimaryType",
     "format": "mask",
     "knownPrimaryType": "string",
+    "deprecated": false,
     "name": {
      "$id": "231",
      "fixed": false,
      "raw": "String"
-    },
-    "deprecated": false
+    }
    }
   }
  ],
@@ -1503,12 +1503,12 @@
         "$ref": "214"
        },
        "location": "path",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "235",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "236",
         "fixed": false
@@ -1540,12 +1540,12 @@
         "$id": "238",
         "$type": "PrimaryType",
         "knownPrimaryType": "int",
+        "deprecated": false,
         "name": {
          "$id": "239",
          "fixed": false,
          "raw": "Int"
-        },
-        "deprecated": false
+        }
        }
       },
       {
@@ -1554,12 +1554,12 @@
         "$ref": "220"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "241",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "242",
         "fixed": false,
@@ -1593,12 +1593,12 @@
         "$type": "PrimaryType",
         "format": "mask",
         "knownPrimaryType": "string",
+        "deprecated": false,
         "name": {
          "$id": "245",
          "fixed": false,
          "raw": "String"
-        },
-        "deprecated": false
+        }
        }
       }
      ],
@@ -1674,12 +1674,12 @@
         "$ref": "220"
        },
        "location": "header",
+       "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
         "$id": "254",
         "fixed": false
        },
-       "deprecated": false,
        "documentation": {
         "$id": "255",
         "fixed": false,
@@ -1713,12 +1713,12 @@
         "$type": "PrimaryType",
         "format": "mask",
         "knownPrimaryType": "string",
+        "deprecated": false,
         "name": {
          "$id": "258",
          "fixed": false,
          "raw": "String"
-        },
-        "deprecated": false
+        }
        }
       }
      ],
