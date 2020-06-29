@@ -1330,7 +1330,7 @@
  "namespace": "PennyDreadfulMagic",
  "modelsName": "Models",
  "apiVersion": "1.0",
- "baseUrl": "/api",
+ "baseUrl": "https://pennydreadfulmagic.com/api",
  "properties": [
   {
    "$id": "214",
@@ -1656,11 +1656,7 @@
       "application/json"
      ],
      "extensions": {
-      "servers": [
-       {
-        "url": "/api"
-       }
-      ]
+      "servers": []
      },
      "deprecated": false,
      "hidden": false
@@ -1776,11 +1772,7 @@
       "application/json"
      ],
      "extensions": {
-      "servers": [
-       {
-        "url": "/api"
-       }
-      ]
+      "servers": []
      },
      "deprecated": false,
      "hidden": false
