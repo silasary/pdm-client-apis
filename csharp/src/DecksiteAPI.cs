@@ -130,7 +130,7 @@ namespace PennyDreadfulMagic
         private void Initialize()
         {
             Get = new Get(this);
-            BaseUri = new System.Uri("/api");
+            BaseUri = new System.Uri("https://pennydreadfulmagic.com/api");
             SerializationSettings = new JsonSerializerSettings
             {
                 Formatting = Newtonsoft.Json.Formatting.Indented,
