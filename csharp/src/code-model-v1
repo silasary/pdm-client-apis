@@ -1,0 +1,1801 @@
+{
+ "$id": "1",
+ "modelTypes": [
+  {
+   "$id": "2",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "3",
+     "isReadOnly": false,
+     "realPath": [
+      "n"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "4",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "5",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "6",
+      "fixed": false,
+      "raw": "n"
+     },
+     "serializedName": "n",
+     "modelType": {
+      "$id": "7",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "8",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "9",
+     "isReadOnly": false,
+     "realPath": [
+      "name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "10",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "11",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "12",
+      "fixed": false,
+      "raw": "name"
+     },
+     "serializedName": "name",
+     "modelType": {
+      "$id": "13",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "14",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    }
+   ],
+   "serializedName": "DecklistEntry",
+   "containsConstantProperties": false,
+   "name": {
+    "$id": "15",
+    "fixed": false,
+    "raw": "DecklistEntry"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "DecklistEntry",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/schemas/DecklistEntry"
+     ]
+    }
+   },
+   "deprecated": false
+  },
+  {
+   "$id": "16",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "17",
+     "isReadOnly": true,
+     "realPath": [
+      "id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "18",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "19",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "20",
+      "fixed": false,
+      "raw": "id"
+     },
+     "serializedName": "id",
+     "modelType": {
+      "$id": "21",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "22",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "23",
+     "isReadOnly": false,
+     "realPath": [
+      "name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "24",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "25",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "26",
+      "fixed": false,
+      "raw": "name"
+     },
+     "serializedName": "name",
+     "modelType": {
+      "$id": "27",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "28",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "29",
+     "isReadOnly": false,
+     "realPath": [
+      "created_date"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "30",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "31",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "32",
+      "fixed": false,
+      "raw": "created_date"
+     },
+     "serializedName": "created_date",
+     "modelType": {
+      "$id": "33",
+      "$type": "PrimaryType",
+      "format": "date-time",
+      "knownPrimaryType": "dateTime",
+      "deprecated": false,
+      "name": {
+       "$id": "34",
+       "fixed": false,
+       "raw": "DateTime"
+      }
+     }
+    },
+    {
+     "$id": "35",
+     "isReadOnly": false,
+     "realPath": [
+      "updated_date"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "36",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "37",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "38",
+      "fixed": false,
+      "raw": "updated_date"
+     },
+     "serializedName": "updated_date",
+     "modelType": {
+      "$id": "39",
+      "$type": "PrimaryType",
+      "format": "date-time",
+      "knownPrimaryType": "dateTime",
+      "deprecated": false,
+      "name": {
+       "$id": "40",
+       "fixed": false,
+       "raw": "DateTime"
+      }
+     }
+    },
+    {
+     "$id": "41",
+     "isReadOnly": false,
+     "realPath": [
+      "wins"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "42",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "43",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "44",
+      "fixed": false,
+      "raw": "wins"
+     },
+     "serializedName": "wins",
+     "modelType": {
+      "$id": "45",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "46",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "47",
+     "isReadOnly": false,
+     "realPath": [
+      "losses"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "48",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "49",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "50",
+      "fixed": false,
+      "raw": "losses"
+     },
+     "serializedName": "losses",
+     "modelType": {
+      "$id": "51",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "52",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "53",
+     "isReadOnly": false,
+     "realPath": [
+      "finish"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "54",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "55",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "56",
+      "fixed": false,
+      "raw": "finish"
+     },
+     "serializedName": "finish",
+     "modelType": {
+      "$id": "57",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "58",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "59",
+     "isReadOnly": false,
+     "realPath": [
+      "archetype_id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "60",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "61",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "62",
+      "fixed": false,
+      "raw": "archetype_id"
+     },
+     "serializedName": "archetype_id",
+     "modelType": {
+      "$id": "63",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "64",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "65",
+     "isReadOnly": false,
+     "realPath": [
+      "archetype_name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "66",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "67",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "68",
+      "fixed": false,
+      "raw": "archetype_name"
+     },
+     "serializedName": "archetype_name",
+     "modelType": {
+      "$id": "69",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "70",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "71",
+     "isReadOnly": false,
+     "realPath": [
+      "source_url"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "72",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "73",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "74",
+      "fixed": false,
+      "raw": "source_url"
+     },
+     "serializedName": "source_url",
+     "modelType": {
+      "$id": "75",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "76",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "77",
+     "isReadOnly": false,
+     "realPath": [
+      "competition_id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "78",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "79",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "80",
+      "fixed": false,
+      "raw": "competition_id"
+     },
+     "serializedName": "competition_id",
+     "modelType": {
+      "$id": "81",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "82",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "83",
+     "isReadOnly": false,
+     "realPath": [
+      "competition_name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "84",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "85",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "86",
+      "fixed": false,
+      "raw": "competition_name"
+     },
+     "serializedName": "competition_name",
+     "modelType": {
+      "$id": "87",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "88",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "89",
+     "isReadOnly": false,
+     "realPath": [
+      "person"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "90",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "91",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "92",
+      "fixed": false,
+      "raw": "person"
+     },
+     "serializedName": "person",
+     "modelType": {
+      "$id": "93",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "94",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "95",
+     "isReadOnly": false,
+     "realPath": [
+      "decklist_hash"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "96",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "97",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "98",
+      "fixed": false,
+      "raw": "decklist_hash"
+     },
+     "serializedName": "decklist_hash",
+     "modelType": {
+      "$id": "99",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "100",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "101",
+     "isReadOnly": false,
+     "realPath": [
+      "retired"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "102",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "103",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "104",
+      "fixed": false,
+      "raw": "retired"
+     },
+     "serializedName": "retired",
+     "modelType": {
+      "$id": "105",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "boolean",
+      "deprecated": false,
+      "name": {
+       "$id": "106",
+       "fixed": false,
+       "raw": "Boolean"
+      }
+     }
+    },
+    {
+     "$id": "107",
+     "isReadOnly": false,
+     "realPath": [
+      "colors"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "108",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "109",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "110",
+      "fixed": false,
+      "raw": "colors"
+     },
+     "serializedName": "colors",
+     "modelType": {
+      "$id": "111",
+      "$type": "SequenceType",
+      "elementType": {
+       "$id": "112",
+       "$type": "PrimaryType",
+       "knownPrimaryType": "string",
+       "deprecated": false,
+       "name": {
+        "$id": "113",
+        "fixed": false,
+        "raw": "String"
+       }
+      },
+      "deprecated": false,
+      "name": {
+       "$id": "114",
+       "fixed": false
+      }
+     }
+    },
+    {
+     "$id": "115",
+     "isReadOnly": false,
+     "realPath": [
+      "omw"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "116",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "117",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "118",
+      "fixed": false,
+      "raw": "omw"
+     },
+     "serializedName": "omw",
+     "modelType": {
+      "$id": "119",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "120",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "121",
+     "isReadOnly": false,
+     "realPath": [
+      "season_id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "122",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "123",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "124",
+      "fixed": false,
+      "raw": "season_id"
+     },
+     "serializedName": "season_id",
+     "modelType": {
+      "$id": "125",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "126",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "127",
+     "isReadOnly": false,
+     "realPath": [
+      "maindeck"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "128",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "129",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "130",
+      "fixed": false,
+      "raw": "maindeck"
+     },
+     "serializedName": "maindeck",
+     "modelType": {
+      "$id": "131",
+      "$type": "SequenceType",
+      "elementType": {
+       "$ref": "2"
+      },
+      "deprecated": false,
+      "name": {
+       "$id": "132",
+       "fixed": false
+      }
+     }
+    },
+    {
+     "$id": "133",
+     "isReadOnly": false,
+     "realPath": [
+      "sideboard"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "134",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "135",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "136",
+      "fixed": false,
+      "raw": "sideboard"
+     },
+     "serializedName": "sideboard",
+     "modelType": {
+      "$id": "137",
+      "$type": "SequenceType",
+      "elementType": {
+       "$ref": "2"
+      },
+      "deprecated": false,
+      "name": {
+       "$id": "138",
+       "fixed": false
+      }
+     }
+    }
+   ],
+   "serializedName": "Deck",
+   "containsConstantProperties": false,
+   "name": {
+    "$id": "139",
+    "fixed": false,
+    "raw": "Deck"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "Deck",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/schemas/Deck"
+     ]
+    }
+   },
+   "deprecated": false
+  },
+  {
+   "$id": "140",
+   "$type": "CompositeType",
+   "properties": [
+    {
+     "$id": "141",
+     "isReadOnly": true,
+     "realPath": [
+      "id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "142",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "143",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "144",
+      "fixed": false,
+      "raw": "id"
+     },
+     "serializedName": "id",
+     "modelType": {
+      "$id": "145",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "146",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "147",
+     "isReadOnly": false,
+     "realPath": [
+      "name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "148",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "149",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "150",
+      "fixed": false,
+      "raw": "name"
+     },
+     "serializedName": "name",
+     "modelType": {
+      "$id": "151",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "152",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "153",
+     "isReadOnly": false,
+     "realPath": [
+      "start_date"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "154",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "155",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "156",
+      "fixed": false,
+      "raw": "start_date"
+     },
+     "serializedName": "start_date",
+     "modelType": {
+      "$id": "157",
+      "$type": "PrimaryType",
+      "format": "date-time",
+      "knownPrimaryType": "dateTime",
+      "deprecated": false,
+      "name": {
+       "$id": "158",
+       "fixed": false,
+       "raw": "DateTime"
+      }
+     }
+    },
+    {
+     "$id": "159",
+     "isReadOnly": false,
+     "realPath": [
+      "end_date"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "160",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "161",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "162",
+      "fixed": false,
+      "raw": "end_date"
+     },
+     "serializedName": "end_date",
+     "modelType": {
+      "$id": "163",
+      "$type": "PrimaryType",
+      "format": "date-time",
+      "knownPrimaryType": "dateTime",
+      "deprecated": false,
+      "name": {
+       "$id": "164",
+       "fixed": false,
+       "raw": "DateTime"
+      }
+     }
+    },
+    {
+     "$id": "165",
+     "isReadOnly": false,
+     "realPath": [
+      "top_n"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "166",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "167",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "168",
+      "fixed": false,
+      "raw": "top_n"
+     },
+     "serializedName": "top_n",
+     "modelType": {
+      "$id": "169",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "170",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "171",
+     "isReadOnly": false,
+     "realPath": [
+      "num_decks"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "172",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "173",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "174",
+      "fixed": false,
+      "raw": "num_decks"
+     },
+     "serializedName": "num_decks",
+     "modelType": {
+      "$id": "175",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "176",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "177",
+     "isReadOnly": false,
+     "realPath": [
+      "num_reviewed"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "178",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "179",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "180",
+      "fixed": false,
+      "raw": "num_reviewed"
+     },
+     "serializedName": "num_reviewed",
+     "modelType": {
+      "$id": "181",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "182",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "183",
+     "isReadOnly": false,
+     "realPath": [
+      "sponsor_name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "184",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "185",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "186",
+      "fixed": false,
+      "raw": "sponsor_name"
+     },
+     "serializedName": "sponsor_name",
+     "modelType": {
+      "$id": "187",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "188",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "189",
+     "isReadOnly": false,
+     "realPath": [
+      "series_name"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "190",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "191",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "192",
+      "fixed": false,
+      "raw": "series_name"
+     },
+     "serializedName": "series_name",
+     "modelType": {
+      "$id": "193",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "194",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "195",
+     "isReadOnly": false,
+     "realPath": [
+      "type"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "196",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "197",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "198",
+      "fixed": false,
+      "raw": "type"
+     },
+     "serializedName": "type",
+     "modelType": {
+      "$id": "199",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "string",
+      "deprecated": false,
+      "name": {
+       "$id": "200",
+       "fixed": false,
+       "raw": "String"
+      }
+     }
+    },
+    {
+     "$id": "201",
+     "isReadOnly": false,
+     "realPath": [
+      "season_id"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "202",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "203",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "204",
+      "fixed": false,
+      "raw": "season_id"
+     },
+     "serializedName": "season_id",
+     "modelType": {
+      "$id": "205",
+      "$type": "PrimaryType",
+      "knownPrimaryType": "int",
+      "deprecated": false,
+      "name": {
+       "$id": "206",
+       "fixed": false,
+       "raw": "Int"
+      }
+     }
+    },
+    {
+     "$id": "207",
+     "isReadOnly": false,
+     "realPath": [
+      "decks"
+     ],
+     "collectionFormat": "none",
+     "defaultValue": {
+      "$id": "208",
+      "fixed": false
+     },
+     "deprecated": false,
+     "documentation": {
+      "$id": "209",
+      "fixed": false
+     },
+     "isRequired": false,
+     "isConstant": false,
+     "name": {
+      "$id": "210",
+      "fixed": false,
+      "raw": "decks"
+     },
+     "serializedName": "decks",
+     "modelType": {
+      "$id": "211",
+      "$type": "SequenceType",
+      "elementType": {
+       "$ref": "16"
+      },
+      "deprecated": false,
+      "name": {
+       "$id": "212",
+       "fixed": false
+      }
+     }
+    }
+   ],
+   "serializedName": "Competition",
+   "containsConstantProperties": false,
+   "name": {
+    "$id": "213",
+    "fixed": false,
+    "raw": "Competition"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "Competition",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/schemas/Competition"
+     ]
+    }
+   },
+   "deprecated": false
+  }
+ ],
+ "name": "DecksiteAPI",
+ "namespace": "PennyDreadfulMagic",
+ "modelsName": "Models",
+ "apiVersion": "1.0",
+ "baseUrl": "/api",
+ "properties": [
+  {
+   "$id": "214",
+   "isReadOnly": false,
+   "realPath": [
+    "deck_id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "215",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "216",
+    "fixed": false
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "paths·4to2m6·decks-deck_id·parameters·0",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·4to2m6·decks-deck_id·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "217",
+    "fixed": false,
+    "raw": "deck_id"
+   },
+   "serializedName": "deck_id",
+   "modelType": {
+    "$id": "218",
+    "$type": "PrimaryType",
+    "knownPrimaryType": "int",
+    "deprecated": false,
+    "name": {
+     "$id": "219",
+     "fixed": false,
+     "raw": "Int"
+    }
+   }
+  },
+  {
+   "$id": "220",
+   "isReadOnly": false,
+   "realPath": [
+    "X-Fields"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "221",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "222",
+    "fixed": false,
+    "raw": "An optional fields mask"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "paths·1x0wxzc·decks-deck_id·get·parameters·0",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·1x0wxzc·decks-deck_id·get·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": false,
+   "isConstant": false,
+   "name": {
+    "$id": "223",
+    "fixed": false,
+    "raw": "X-Fields"
+   },
+   "serializedName": "X-Fields",
+   "modelType": {
+    "$id": "224",
+    "$type": "PrimaryType",
+    "format": "mask",
+    "knownPrimaryType": "string",
+    "deprecated": false,
+    "name": {
+     "$id": "225",
+     "fixed": false,
+     "raw": "String"
+    }
+   }
+  },
+  {
+   "$id": "226",
+   "isReadOnly": false,
+   "realPath": [
+    "X-Fields"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "227",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "228",
+    "fixed": false,
+    "raw": "An optional fields mask"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///106?oai3.shaken.json"
+     ],
+     "name": "paths·ats5pn·league·get·parameters·0",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·ats5pn·league·get·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": false,
+   "isConstant": false,
+   "name": {
+    "$id": "229",
+    "fixed": false,
+    "raw": "XFields1"
+   },
+   "serializedName": "X-Fields",
+   "modelType": {
+    "$id": "230",
+    "$type": "PrimaryType",
+    "format": "mask",
+    "knownPrimaryType": "string",
+    "deprecated": false,
+    "name": {
+     "$id": "231",
+     "fixed": false,
+     "raw": "String"
+    }
+   }
+  }
+ ],
+ "operations": [
+  {
+   "$id": "232",
+   "methods": [
+    {
+     "$id": "233",
+     "parameters": [
+      {
+       "$id": "234",
+       "clientProperty": {
+        "$ref": "214"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "235",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "236",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///106?oai3.shaken.json"
+         ],
+         "name": "paths·4to2m6·decks-deck_id·parameters·0",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·4to2m6·decks-deck_id·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "237",
+        "fixed": false,
+        "raw": "deck_id"
+       },
+       "serializedName": "deck_id",
+       "modelType": {
+        "$id": "238",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "int",
+        "deprecated": false,
+        "name": {
+         "$id": "239",
+         "fixed": false,
+         "raw": "Int"
+        }
+       }
+      },
+      {
+       "$id": "240",
+       "clientProperty": {
+        "$ref": "220"
+       },
+       "location": "header",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "241",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "242",
+        "fixed": false,
+        "raw": "An optional fields mask"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///106?oai3.shaken.json"
+         ],
+         "name": "paths·1x0wxzc·decks-deck_id·get·parameters·0",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·1x0wxzc·decks-deck_id·get·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "243",
+        "fixed": false,
+        "raw": "X-Fields"
+       },
+       "serializedName": "X-Fields",
+       "modelType": {
+        "$id": "244",
+        "$type": "PrimaryType",
+        "format": "mask",
+        "knownPrimaryType": "string",
+        "deprecated": false,
+        "name": {
+         "$id": "245",
+         "fixed": false,
+         "raw": "String"
+        }
+       }
+      }
+     ],
+     "name": {
+      "$id": "246",
+      "fixed": false,
+      "raw": "DeckMethod"
+     },
+     "group": {
+      "$id": "247",
+      "fixed": false,
+      "raw": "get"
+     },
+     "serializedName": "get_load_deck",
+     "url": "/decks/{deck_id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "248",
+       "body": {
+        "$ref": "16"
+       },
+       "extensions": {
+        "$id": "249",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///106?oai3.shaken.json"
+         ],
+         "name": "paths·e4udbj·decks-deck_id·get·responses·200",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/responses/paths·e4udbj·decks-deck_id·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "250",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "251",
+      "body": {
+       "$ref": "16"
+      },
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "/api"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "252",
+     "parameters": [
+      {
+       "$id": "253",
+       "clientProperty": {
+        "$ref": "220"
+       },
+       "location": "header",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "254",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "255",
+        "fixed": false,
+        "raw": "An optional fields mask"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///106?oai3.shaken.json"
+         ],
+         "name": "paths·ats5pn·league·get·parameters·0",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·ats5pn·league·get·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "256",
+        "fixed": false,
+        "raw": "X-Fields"
+       },
+       "serializedName": "X-Fields",
+       "modelType": {
+        "$id": "257",
+        "$type": "PrimaryType",
+        "format": "mask",
+        "knownPrimaryType": "string",
+        "deprecated": false,
+        "name": {
+         "$id": "258",
+         "fixed": false,
+         "raw": "String"
+        }
+       }
+      }
+     ],
+     "name": {
+      "$id": "259",
+      "fixed": false,
+      "raw": "league"
+     },
+     "group": {
+      "$id": "260",
+      "fixed": false,
+      "raw": "get"
+     },
+     "serializedName": "get_league",
+     "url": "/league",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "261",
+       "body": {
+        "$ref": "140"
+       },
+       "extensions": {
+        "$id": "262",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///106?oai3.shaken.json"
+         ],
+         "name": "paths·nsekj0·league·get·responses·200",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/responses/paths·nsekj0·league·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "263",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "264",
+      "body": {
+       "$ref": "140"
+      },
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "/api"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    }
+   ],
+   "name": {
+    "$id": "265",
+    "fixed": false,
+    "raw": "Get"
+   },
+   "typeName": {
+    "$id": "266",
+    "fixed": false
+   },
+   "nameForProperty": "Get"
+  }
+ ]
+}
