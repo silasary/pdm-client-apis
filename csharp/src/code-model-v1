@@ -1656,7 +1656,11 @@
       "application/json"
      ],
      "extensions": {
-      "servers": []
+      "servers": [
+       {
+        "url": "/api"
+       }
+      ]
      },
      "deprecated": false,
      "hidden": false
@@ -1772,7 +1776,11 @@
       "application/json"
      ],
      "extensions": {
-      "servers": []
+      "servers": [
+       {
+        "url": "/api"
+       }
+      ]
      },
      "deprecated": false,
      "hidden": false
