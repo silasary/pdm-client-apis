@@ -91,7 +91,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "DecklistEntry",
      "originalLocations": [
@@ -852,7 +852,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "Deck",
      "originalLocations": [
@@ -1315,7 +1315,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "Competition",
      "originalLocations": [
@@ -1354,7 +1354,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "paths·4to2m6·decks-deck_id·parameters·0",
      "originalLocations": [
@@ -1406,7 +1406,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "paths·1x0wxzc·decks-deck_id·get·parameters·0",
      "originalLocations": [
@@ -1459,7 +1459,7 @@
       "1.0"
      ],
      "filename": [
-      "mem:///106?oai3.shaken.json"
+      "mem:///107?oai3.shaken.json"
      ],
      "name": "paths·ats5pn·league·get·parameters·0",
      "originalLocations": [
@@ -1488,17 +1488,70 @@
      "raw": "String"
     }
    }
+  },
+  {
+   "$id": "232",
+   "isReadOnly": false,
+   "realPath": [
+    "X-Fields"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "233",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "234",
+    "fixed": false,
+    "raw": "An optional fields mask"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "1.0"
+     ],
+     "filename": [
+      "mem:///107?oai3.shaken.json"
+     ],
+     "name": "paths·1ar6wq5·randomlegaldeck·get·parameters·0",
+     "originalLocations": [
+      "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·1ar6wq5·randomlegaldeck·get·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": false,
+   "isConstant": false,
+   "name": {
+    "$id": "235",
+    "fixed": false,
+    "raw": "XFields2"
+   },
+   "serializedName": "X-Fields",
+   "modelType": {
+    "$id": "236",
+    "$type": "PrimaryType",
+    "format": "mask",
+    "knownPrimaryType": "string",
+    "deprecated": false,
+    "name": {
+     "$id": "237",
+     "fixed": false,
+     "raw": "String"
+    }
+   }
   }
  ],
  "operations": [
   {
-   "$id": "232",
+   "$id": "238",
    "methods": [
     {
-     "$id": "233",
+     "$id": "239",
      "parameters": [
       {
-       "$id": "234",
+       "$id": "240",
        "clientProperty": {
         "$ref": "214"
        },
@@ -1506,11 +1559,11 @@
        "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
-        "$id": "235",
+        "$id": "241",
         "fixed": false
        },
        "documentation": {
-        "$id": "236",
+        "$id": "242",
         "fixed": false
        },
        "extensions": {
@@ -1519,7 +1572,7 @@
           "1.0"
          ],
          "filename": [
-          "mem:///106?oai3.shaken.json"
+          "mem:///107?oai3.shaken.json"
          ],
          "name": "paths·4to2m6·decks-deck_id·parameters·0",
          "originalLocations": [
@@ -1531,25 +1584,25 @@
        "isRequired": true,
        "isConstant": false,
        "name": {
-        "$id": "237",
+        "$id": "243",
         "fixed": false,
         "raw": "deck_id"
        },
        "serializedName": "deck_id",
        "modelType": {
-        "$id": "238",
+        "$id": "244",
         "$type": "PrimaryType",
         "knownPrimaryType": "int",
         "deprecated": false,
         "name": {
-         "$id": "239",
+         "$id": "245",
          "fixed": false,
          "raw": "Int"
         }
        }
       },
       {
-       "$id": "240",
+       "$id": "246",
        "clientProperty": {
         "$ref": "220"
        },
@@ -1557,11 +1610,11 @@
        "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
-        "$id": "241",
+        "$id": "247",
         "fixed": false
        },
        "documentation": {
-        "$id": "242",
+        "$id": "248",
         "fixed": false,
         "raw": "An optional fields mask"
        },
@@ -1571,7 +1624,7 @@
           "1.0"
          ],
          "filename": [
-          "mem:///106?oai3.shaken.json"
+          "mem:///107?oai3.shaken.json"
          ],
          "name": "paths·1x0wxzc·decks-deck_id·get·parameters·0",
          "originalLocations": [
@@ -1583,19 +1636,19 @@
        "isRequired": false,
        "isConstant": false,
        "name": {
-        "$id": "243",
+        "$id": "249",
         "fixed": false,
         "raw": "X-Fields"
        },
        "serializedName": "X-Fields",
        "modelType": {
-        "$id": "244",
+        "$id": "250",
         "$type": "PrimaryType",
         "format": "mask",
         "knownPrimaryType": "string",
         "deprecated": false,
         "name": {
-         "$id": "245",
+         "$id": "251",
          "fixed": false,
          "raw": "String"
         }
@@ -1603,12 +1656,12 @@
       }
      ],
      "name": {
-      "$id": "246",
+      "$id": "252",
       "fixed": false,
       "raw": "DeckMethod"
      },
      "group": {
-      "$id": "247",
+      "$id": "253",
       "fixed": false,
       "raw": "get"
      },
@@ -1618,18 +1671,18 @@
      "httpMethod": "get",
      "responses": {
       "OK": {
-       "$id": "248",
+       "$id": "254",
        "body": {
         "$ref": "16"
        },
        "extensions": {
-        "$id": "249",
+        "$id": "255",
         "x-ms-metadata": {
          "apiVersions": [
           "1.0"
          ],
          "filename": [
-          "mem:///106?oai3.shaken.json"
+          "mem:///107?oai3.shaken.json"
          ],
          "name": "paths·e4udbj·decks-deck_id·get·responses·200",
          "originalLocations": [
@@ -1641,11 +1694,11 @@
       }
      },
      "defaultResponse": {
-      "$id": "250",
+      "$id": "256",
       "isNullable": true
      },
      "returnType": {
-      "$id": "251",
+      "$id": "257",
       "body": {
        "$ref": "16"
       },
@@ -1666,10 +1719,10 @@
      "hidden": false
     },
     {
-     "$id": "252",
+     "$id": "258",
      "parameters": [
       {
-       "$id": "253",
+       "$id": "259",
        "clientProperty": {
         "$ref": "220"
        },
@@ -1677,11 +1730,11 @@
        "deprecated": false,
        "collectionFormat": "none",
        "defaultValue": {
-        "$id": "254",
+        "$id": "260",
         "fixed": false
        },
        "documentation": {
-        "$id": "255",
+        "$id": "261",
         "fixed": false,
         "raw": "An optional fields mask"
        },
@@ -1691,7 +1744,7 @@
           "1.0"
          ],
          "filename": [
-          "mem:///106?oai3.shaken.json"
+          "mem:///107?oai3.shaken.json"
          ],
          "name": "paths·ats5pn·league·get·parameters·0",
          "originalLocations": [
@@ -1703,19 +1756,19 @@
        "isRequired": false,
        "isConstant": false,
        "name": {
-        "$id": "256",
+        "$id": "262",
         "fixed": false,
         "raw": "X-Fields"
        },
        "serializedName": "X-Fields",
        "modelType": {
-        "$id": "257",
+        "$id": "263",
         "$type": "PrimaryType",
         "format": "mask",
         "knownPrimaryType": "string",
         "deprecated": false,
         "name": {
-         "$id": "258",
+         "$id": "264",
          "fixed": false,
          "raw": "String"
         }
@@ -1723,12 +1776,12 @@
       }
      ],
      "name": {
-      "$id": "259",
+      "$id": "265",
       "fixed": false,
       "raw": "league"
      },
      "group": {
-      "$id": "260",
+      "$id": "266",
       "fixed": false,
       "raw": "get"
      },
@@ -1738,18 +1791,18 @@
      "httpMethod": "get",
      "responses": {
       "OK": {
-       "$id": "261",
+       "$id": "267",
        "body": {
         "$ref": "140"
        },
        "extensions": {
-        "$id": "262",
+        "$id": "268",
         "x-ms-metadata": {
          "apiVersions": [
           "1.0"
          ],
          "filename": [
-          "mem:///106?oai3.shaken.json"
+          "mem:///107?oai3.shaken.json"
          ],
          "name": "paths·nsekj0·league·get·responses·200",
          "originalLocations": [
@@ -1761,13 +1814,133 @@
       }
      },
      "defaultResponse": {
-      "$id": "263",
+      "$id": "269",
       "isNullable": true
      },
      "returnType": {
-      "$id": "264",
+      "$id": "270",
       "body": {
        "$ref": "140"
+      },
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "/api"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "271",
+     "parameters": [
+      {
+       "$id": "272",
+       "clientProperty": {
+        "$ref": "220"
+       },
+       "location": "header",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "273",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "274",
+        "fixed": false,
+        "raw": "An optional fields mask"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·1ar6wq5·randomlegaldeck·get·parameters·0",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/parameters/paths·1ar6wq5·randomlegaldeck·get·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "275",
+        "fixed": false,
+        "raw": "X-Fields"
+       },
+       "serializedName": "X-Fields",
+       "modelType": {
+        "$id": "276",
+        "$type": "PrimaryType",
+        "format": "mask",
+        "knownPrimaryType": "string",
+        "deprecated": false,
+        "name": {
+         "$id": "277",
+         "fixed": false,
+         "raw": "String"
+        }
+       }
+      }
+     ],
+     "name": {
+      "$id": "278",
+      "fixed": false,
+      "raw": "DeckMethod1"
+     },
+     "group": {
+      "$id": "279",
+      "fixed": false,
+      "raw": "get"
+     },
+     "serializedName": "get_load_random_deck",
+     "url": "/randomlegaldeck",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "280",
+       "body": {
+        "$ref": "16"
+       },
+       "extensions": {
+        "$id": "281",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "1.0"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·l8wgd2·randomlegaldeck·get·responses·200",
+         "originalLocations": [
+          "https://pennydreadfulmagic.com/api/swagger.json#/components/responses/paths·l8wgd2·randomlegaldeck·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "282",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "283",
+      "body": {
+       "$ref": "16"
       },
       "isNullable": true
      },
@@ -1787,12 +1960,12 @@
     }
    ],
    "name": {
-    "$id": "265",
+    "$id": "284",
     "fixed": false,
     "raw": "Get"
    },
    "typeName": {
-    "$id": "266",
+    "$id": "285",
     "fixed": false
    },
    "nameForProperty": "Get"

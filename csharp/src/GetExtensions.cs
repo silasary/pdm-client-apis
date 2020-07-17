@@ -75,5 +75,33 @@ namespace PennyDreadfulMagic
                 }
             }
 
+            /// <param name='operations'>
+            /// The operations group for this extension method.
+            /// </param>
+            /// <param name='xFields'>
+            /// An optional fields mask
+            /// </param>
+            public static Deck DeckMethod1(this IGet operations, string xFields = default(string))
+            {
+                return operations.DeckMethod1Async(xFields).GetAwaiter().GetResult();
+            }
+
+            /// <param name='operations'>
+            /// The operations group for this extension method.
+            /// </param>
+            /// <param name='xFields'>
+            /// An optional fields mask
+            /// </param>
+            /// <param name='cancellationToken'>
+            /// The cancellation token.
+            /// </param>
+            public static async Task<Deck> DeckMethod1Async(this IGet operations, string xFields = default(string), CancellationToken cancellationToken = default(CancellationToken))
+            {
+                using (var _result = await operations.DeckMethod1WithHttpMessagesAsync(xFields, null, cancellationToken).ConfigureAwait(false))
+                {
+                    return _result.Body;
+                }
+            }
+
     }
 }
